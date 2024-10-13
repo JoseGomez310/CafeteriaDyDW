@@ -1,0 +1,162 @@
+/*
+@media screen and (max-width: 940px) {
+    .inicio h1 {
+        margin: 0 2rem;
+    }
+
+    .inicio h3 {
+        margin: 1rem 2rem 4rem 4rem;
+    }
+}
+*/
+@media screen and (max-width: 1450px) {
+    .inicio h1 {
+        margin: 0 1rem;
+        font-size: 5rem;
+    }
+    
+    .inicio h3 {
+        margin: 1rem 1rem 8rem 4rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .inicio h1 {
+        font-size: 4rem;
+    }
+
+    .sobreNosotros p {
+        margin: 20px 100px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .inicio {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .inicio h1 {
+        font-size: 5rem;
+    }
+
+    .inicio h3 {
+        margin: 0;
+    }
+
+    .inicio::before {
+        background: black;
+        opacity: .5;
+    }
+
+    .nuestrosProductos .categorias a {
+        margin: 4rem 1rem;
+    }
+
+    .sobreNosotros img {
+        height: 285px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nuestrosProductos .categorias a .contenedorA h1 {
+        opacity: 1;
+    }
+
+    .nuestrosProductos .categorias a .contenedorA img {
+        opacity: .7;
+    }
+
+    .nuestrosProductos .categorias a .contenedorA {
+        border-radius: 20px;
+    }
+
+    .sobreNosotros img {
+        height: 185px;
+        width: auto;
+    }
+
+    .piePagina .botones a{
+        margin: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .inicio h1 {
+        font-size: 4rem;
+    }
+
+    .sobreNosotros p {
+        margin: 20px 50px;
+    }
+
+    .piePagina .botones a{
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .piePagina .nombreCompania small{
+        font-size:  10px;
+    }
+
+    .novedades h1 {
+        font-size: 4rem;
+    }
+
+    .novedades h2 {
+        font-size: 40px;
+    }
+
+    .novedades h4 {
+        font-size: 18px;
+    }
+
+    .sobreNosotros h1 {
+        font-size: 3rem;
+        margin: 20px;
+        padding-bottom: 30px;
+    }
+
+    .sobreNosotros h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .inicio h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .inicio h1 {
+        font-size: 3rem;
+        margin: 10px;
+    }
+
+    .inicio h3 {
+        font-size: 1;
+        margin: 10px;
+    }
+
+    .articulo img {
+        zoom: 50%;
+    }
+
+    .piePagina .botones a {
+        margin: 0 5px;
+        font-size: 10px;
+    }
+
+    .piePagina .nombreCompania small{
+        font-size:  8px;
+    }
+
+    .sobreNosotros img {
+        height: 145px;
+        width: auto;
+    }
+}

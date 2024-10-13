@@ -1,0 +1,386 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif; /*Cambiar despues*/
+    background-color: #fef2dd;
+}
+/*
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(42, 25, 14, 0.913);
+    padding: 5px 10%;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+
+header .logo img {
+    height: 55px;
+    width: auto;
+    transition: .3s;
+    cursor: pointer;
+}
+
+header .logo img:hover {
+    transform: scale(1.1);
+}
+
+header .navbar li {
+    display: inline-block;
+    margin: 0 25px;
+    transition: .3s;
+    font-weight: 500;
+}
+
+header .navbar li:hover {
+    transform: scale(1.1);
+
+}
+
+header .navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: .3s;
+}
+
+header .navbar li a:hover {
+    color: rgb(200, 93, 0);
+}
+*/
+
+.inicio {
+    background-image: url(../images/bannerCafe.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: rgb(237, 237, 237);
+    height: 40rem;
+    position: relative;
+}
+
+.inicio:before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, rgba(214, 214, 214, 0.211), rgba(255, 255, 255, 0));
+    border-radius: .7rem;
+}
+
+.inicio h1 {
+    /*
+    margin: 31rem 4rem .5rem 0rem;
+    */
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 200;
+    font-family: 'Great Vibes', cursive;
+    margin: 0 4rem;
+    position: relative;
+}
+
+.inicio h3 {
+    /*
+    margin: 0rem 4rem 4rem 0rem;
+    */
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 1rem 4rem 8rem 4rem;
+    position: relative;
+    font-family: 'Dongle', sans-serif;
+}
+
+.novedades {
+    background-color: rgb(228, 232, 236);
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.novedades > h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 300;
+    font-family: 'Great Vibes', cursive;
+    margin: 6rem 1rem 2rem 1rem;
+}
+
+.novedades > h2 {
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.novedades > h4 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 1rem 2rem 3rem 2rem;
+}
+
+section .articulos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+section .articulos .articulo {
+    margin: 1rem 3rem;
+}
+
+.articulo img {
+    height: 320px;
+    width: auto;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.articulo img:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgba(142, 142, 142, 0.834);
+    margin-bottom: 10px;
+}
+
+.articulo h3 {
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.articulo small {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sobreNosotros > h1 {
+    text-align: center;
+    margin-top: 120px;
+    padding:0 0 60px 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.sobreNosotros > h2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Arreglar tema fuente de la Ñ*/
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin: 0 2rem;
+}
+
+.sobreNosotros > h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+section .iconos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .iconos .icono {
+    margin: 20px;
+}
+
+section .iconos .icono img {
+    height: 85px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+section .iconos .icono h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold; /* Terminar */
+}
+
+.sobreNosotros > p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 290px;
+}
+
+.sobreNosotros > img {
+    height: 385px;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.nuestrosProductos {
+    padding-top: 4rem;
+}
+
+.nuestrosProductos > h1 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: 'Great Vibes', cursive;
+}
+
+.nuestrosProductos .categorias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.nuestrosProductos .categorias a {
+    height: 420px;
+    width: 320px;
+    margin: 4rem;
+}
+
+.nuestrosProductos .categorias a .contenedorA{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    border-radius: 5px;
+    filter: grayscale(45%);
+    transition: .5s;
+    box-shadow: 5px 8px 10px rgb(83, 83, 83);
+}
+
+.nuestrosProductos .categorias a .contenedorA img {
+    height: 480px;
+    object-fit: cover;
+    transition: .7s;
+    z-index: 2;
+    float: left;
+}
+
+.nuestrosProductos .categorias a .contenedorA .tazaBlanca {
+    width: auto;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.nuestrosProductos .categorias a .contenedorA .tazaRoja {
+    position: relative;
+    left: -50%;
+    z-index: 0;
+}
+
+.nuestrosProductos .categorias a .contenedorA h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    transition: .7s;
+    z-index: 1;
+}
+
+.nuestrosProductos .categorias a .contenedorA .tituloCarta {
+    color: rgb(0, 0, 0);
+}
+
+.nuestrosProductos .categorias a .contenedorA .tituloVarios {
+    color: rgb(0, 0, 0);
+}
+
+.nuestrosProductos .categorias a .contenedorA:hover {
+    box-shadow: 5px 5px 5px rgb(91, 91, 91);
+}
+
+.nuestrosProductos .categorias a .contenedorA:hover h1 {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+}
+
+.nuestrosProductos .categorias a .contenedorA:hover img {
+    transform: scale(1.08);
+    opacity: .5;
+}
+
+.piePagina {
+    text-align: center;
+    background-color: rgba(42, 25, 14, 0.913);
+    padding: 4rem 0;
+}
+
+.piePagina .redesSociales {
+    margin: 25px 0;
+}
+
+.piePagina .redesSociales a {
+    margin: 0 20px;
+}
+
+.piePagina .redesSociales a img {
+    filter: invert(75%);
+    transition: .3s;
+}
+
+.piePagina .redesSociales a img:hover {
+    filter: invert(100%);
+    transform: scale(1.1);
+}
+
+.piePagina .botones {
+    margin: 20px 0;
+}
+
+.piePagina .botones a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: rgb(206, 213, 219);
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+    border-bottom: 0px solid rgba(42, 25, 14, 0.913);
+}
+
+.piePagina .botones a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.piePagina .nombreCompania small {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
